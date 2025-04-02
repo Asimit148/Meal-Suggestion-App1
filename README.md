@@ -21,7 +21,7 @@ The app’s design was guided by the following key considerations for the user. 
 ### 3.	Main Screen (Meal Suggestions UI) 
 Due to the simple nature of the program, only one main screen was necessary in creating this project. 
  
-The main screen consists of the following components: A background image, a text view, a display and reset button, and an edit text. The text view is where the user has entered the title of the project. The edit text box, allows the user to enter text, specifically a time of day for a suggested meal (for example, “Morning”, “Mid-afternoon”, etc). The display button, will generate a meal for the user based on the time that the user has entered. However, if the user has entered incorrect text (such as leaving the edit text blank, or entering text that is not a time of day), a sufficient error message will be displayed (for example: “Please enter a time of day”). The reset button, will clear the text that the user has entered in the edit text, so that the user is able to re-enter the time of day , if they wish to try the program again. 
+The main screen ("App Actual") consists of the following components: A background image, a text view, a display and reset button, and an edit text. The text view is where the user has entered the title of the project. The edit text box, allows the user to enter text, specifically a time of day for a suggested meal (for example, “Morning”, “Mid-afternoon”, etc). The display button, will generate a meal for the user based on the time that the user has entered. However, if the user has entered incorrect text (such as leaving the edit text blank, or entering text that is not a time of day), a sufficient error message will be displayed (for example: “Please enter a time of day”). The reset button, will clear the text that the user has entered in the edit text, so that the user is able to re-enter the time of day , if they wish to try the program again. 
 
 ### 4.) Coding Behind Screen
 #### 4.1) Standard Code generated for UI Components 
@@ -44,6 +44,6 @@ The main screen consists of the following components: A background image, a text
 
 #### 4.2) Main Activity Code – gives program functionality   
 
-The above code clearly displays, how the code adds function to the program. Above (picture 1) shows all of necessary variables that need to be declared, such as the inputted text. Then, in pictures 2 and 3, there are “if statements”. These if statements check to see what time the user has entered, and display a meal depending on that time of day. For example, if the user enters “Morning”, the program will suggest “Cereal” as a meal option. However, if the user enters incorrent text, such as leaving the text blank, the if statements show that an error message will appear. 
+The code clearly displays, how the code adds function to the program. Above ("Main Activity 1") shows all of necessary variables that need to be declared, such as the inputted text. Then, in ("Main Activity 2" and "Main Activity 3"), there are “if statements”. These if statements check to see what time the user has entered, and display a meal depending on that time of day. For example, if the user enters “Morning”, the program will suggest “Cereal” as a meal option. However, if the user enters incorrent text, such as leaving the text blank, the if statements show that an error message will appear. 
 
 
