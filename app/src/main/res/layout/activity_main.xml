@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundimage"
+
+    >
+
+
+
+    <!-- Background Image -->
+    <TextView
+        android:id="@+id/MealSuggestions"
+        android:layout_width="188dp"
+        android:layout_height="35dp"
+        android:background="#FFC107"
+        android:text="Meal Suggestions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+    <!-- Unique ID for BACKGROUND.jpg image-->
+    <!-- Width spans fills screens-->
+    <!-- Weight spans full screen-->
+
+
+
+    <!-- Input Field: EditText for the Time of day -->
+    <EditText
+        android:id="@+id/TimeofthedayInput"
+        android:layout_width="216dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Time of the day"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MealSuggestions"
+        app:layout_constraintVertical_bias="0.202"
+        tools:text="Time of the day" />
+    <!-- Unique ID for Time of the Day input -->
+    <!-- Spans full width of container -->
+    <!-- Height adjust based on content -->
+    <!-- Hint text when empty-->
+    <!-- Internal padding -->
+    <!-- Typed text color set to black -->
+    <!-- Default Android edit text BACKGROUND.jpg -->
+    <!-- Subtle shadows for depth -->
+    <!-- Top Margin for spacing -->
+
+    <!-- Button: Display Suggestion  -->
+    <Button
+        android:id="@+id/DisplayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9C27B0"
+        android:backgroundTint="#9C27B0"
+        android:text="Display Suggestion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TimeofthedayInput"
+        app:layout_constraintVertical_bias="0.363" />
+    <!-- Unique ID for Display Suggestion button -->
+    <!-- Button text -->
+    <!-- Text size -->
+    <!-- Custom purple color tint -->
+    <!-- White text color -->
+    <!-- Top margin for spacing -->
+    <!-- Shadow for depth -->
+
+
+    <Button
+        android:id="@+id/ResetButtoon"
+        android:layout_width="232dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="4dp"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/DisplayButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
